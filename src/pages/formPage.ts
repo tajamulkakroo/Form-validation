@@ -79,7 +79,7 @@ export class StudentRegistrationPage {
     }
     async addPicture(){
 
-        await this.pictuteLocator.setInputFiles('./dummy.pdf');
+        await this.pictuteLocator.setInputFiles('./dummyjpg');
     }
 
     async addAddress(address: string){

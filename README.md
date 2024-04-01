@@ -19,3 +19,6 @@ The following dependencies were utilized:
 5. **Displaying Validation Errors:** Implemented error message display based on validation errors retrieved from the `errors` object provided by `react-hook-form`.
 
 6. **Testing:** Developed comprehensive test coverage using the `@testing-library/react` library, including rendering form fields, displaying validation errors for required fields, and handling invalid email addresses.
+ Used POM for the test, Used fixetures to enter fake data.
+
+ To run the test run the command in the terminal npx playwright test formValidation.spec.ts --headed

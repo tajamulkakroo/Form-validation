@@ -23,7 +23,7 @@ test('test', async ({ page }) => {
 
 
   await studentRegistrationPage.fillMobileNumber(fakeValue.mobileNumberLocator);
-  //await expect(page.locator('#mobileNumber')).toHaveValue(fakeValue.mobileNumberLocator);
+  
 
   
   await studentRegistrationPage.addDOB();
@@ -50,7 +50,6 @@ test('test', async ({ page }) => {
   await studentRegistrationPage.submitForm();
 
 
-
 });
 
 
@@ -60,24 +59,3 @@ test('test', async ({ page }) => {
 
 
 
- /* await page.getByLabel('First Name').click();
-  await page.getByLabel('First Name').fill('Tajamul');
-  await page.getByLabel('Last Name').click();
-  await page.getByLabel('Last Name').fill('Islam');
-  await page.getByLabel('Email').click();
-  await page.getByLabel('Email').fill('tajamulislam.100@gmail.com');
-  await page.getByLabel('Male', { exact: true }).check();
-  await page.getByLabel('Mobile Number (10 Digits)').click();
-  await page.getByLabel('Mobile Number (10 Digits)').fill('9149479287');
-  await page.getByLabel('Date of Birth').fill('2024-04-01');
-  await page.getByLabel('Subjects').click();
-  await page.getByLabel('Subjects').fill('physics');
-  await page.getByLabel('Sports').check();
-  await page.getByLabel('Picture').click();
-  await page.getByLabel('Picture').setInputFiles('Aadhaar.PNG');
-  await page.getByLabel('Current Address').click();
-  await page.getByLabel('Current Address').fill('Amda Kadal ');
-  await page.getByLabel('State').selectOption('Jammu & Kashmir');
-  await page.getByLabel('City').selectOption('Srinagar');
-  await page.getByRole('button', { name: 'Submit' }).click();
-});*/
