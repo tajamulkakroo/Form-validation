@@ -5,6 +5,7 @@ The following dependencies were utilized:
 - [zod](https://github.com/colinhacks/zod): TypeScript-centric schema validation library.
 - [react-hook-form](https://react-hook-form.com/): Form handling and validation tool for React.
 - [tailwindcss](https://tailwindcss.com/): Utility-first CSS framework for React styling.
+- [faker](https://fakerjs.dev/): For entering the fake data
 
 # Implementation Steps
 
