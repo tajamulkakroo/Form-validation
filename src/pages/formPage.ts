@@ -61,9 +61,6 @@ export class StudentRegistrationPage {
     
     async addDOB(){
 
-        //await this.DOBLocator.click();
-        //await this.DOBLocator.fill(birthDate);
-
         await this.page.getByLabel('Date of Birth').fill('2024-04-01');
     }
 
