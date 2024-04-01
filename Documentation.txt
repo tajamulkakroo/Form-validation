@@ -1,0 +1,21 @@
+Dependencies :
+
+We used some tools to help us build our form:
+
+    - zod: It's like a helper that makes sure the information entered into the form follows certain rules.
+    - react-hook-form: This helps us handle the form in our React app, making sure everything works smoothly.
+    - tailwindcss: This makes it easy for us to style our form and make it look nice.
+
+Implementation Steps :
+
+    - Creating the Form Component: We made a special part of our app called RegistrationForm.js that takes care of everything related to the form - like how it looks and what happens when you type things into it.
+
+    - Defining the Validation Schema: We used zod to decide what information is needed in each part of the form. For example, it says that your email must have an @ symbol and a dot in it to be valid.
+
+    - Form Handling and Validation: With react-hook-form, we can keep track of what's happening in the form and make sure everything is filled out correctly. The register function helps us connect each part of the form to the validation rules we set up.
+
+    - Rendering Form Fields: We made sure that each part of the form (like the name, email, and date of birth) shows up correctly on the screen. We also made it so that when you type something, it gets stored in the right place.
+
+    - Displaying Validation Errors: If you forget to fill out a required part of the form or if you enter something wrong (like an invalid email), we show you a message telling you what's wrong.
+
+    - Testing: To make sure everything works as expected, we tested the form thoroughly. This includes checking if all the parts of the form show up, if error messages appear when needed, and if it handles invalid inputs properly.
